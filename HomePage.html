@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Bhagavad Gita</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        footer {
+            background: #fff;
+            padding: 30px 20px;
+            border-top: 1px solid #eee;
+            text-align: center;
+        }
+
+        footer .footer-links a {
+            margin: 0 12px;
+            color: #555;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        footer .footer-links a:hover {
+            color: #000;
+        }
+
+        footer .social-icons a {
+            margin: 0 10px;
+            font-size: 20px;
+            color: #888;
+        }
+
+        footer .social-icons a:hover {
+            color: #000;
+        }
+
+        footer .copyright {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        footer .copyright span {
+            color: #ff6600;
+            /* Ved Vyas Foundation highlight */
+        }
+
+        footer .store-buttons img {
+            height: 45px;
+            margin-left: 10px;
+        }
+
+        .footer-bottom {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body class="bg-amber-50">
+    <!-- HEADER -->
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-4">
+                    <a class="text-xl font-bold text-gray-800" href="HomePage.html">Bhagavad Gita</a>
+                </div>
+                <nav class="hidden md:flex items-center space-x-8 relative">
+                    <div class="group relative">
+                        <a class="flex items-center text-gray-600 hover:text-orange-500 cursor-pointer">
+                            Chapters <i class="material-icons text-sm ml-1">arrow_drop_down</i>
+                        </a>
+                        <!-- Dropdown -->
+                        <div
+                            class="absolute left-0 mt-2 w-72 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 p-4">
+                            <div class="grid grid-cols-2 gap-2">
+                                <!-- Chapters List -->
+                                <a href="Chapter1.html"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        1</span></a>
+                                <a href="Chapter2.html"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        2</span></a>
+                                <a href="Chapter3.html"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        3</span></a>
+                                <a href="#"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        4</span></a>
+                                <a href="#"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        5</span></a>
+                                <a href="#"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        6</span></a>
+                                <a href="#"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        7</span></a>
+                                <a href="#"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        8</span></a>
+                                <a href="#"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        9</span></a>
+                                <a href="#"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        10</span></a>
+                                <a href="#"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        11</span></a>
+                                <a href="#"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        12</span></a>
+                                <a href="#"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        13</span></a>
+                                <a href="#"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        14</span></a>
+                                <a href="#"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        15</span></a>
+                                <a href="#"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        16</span></a>
+                                <a href="#"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        17</span></a>
+                                <a href="#"
+                                    class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                                        class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                                        18</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="text-gray-600 hover:text-orange-500" href="QuotesPage.html">Quotes</a>
+                    <a class="text-gray-600 hover:text-orange-500" href="AboutGitaPage.html">About Gita</a>
+                    <a class="text-gray-600 hover:text-orange-500" href="https://bhagavadgita.io/gitagpt">Gita AI</a>
+                    <a class="text-gray-600 hover:text-orange-500" href="DonatePage.html">Donate</a>
+                </nav>
+                <div class="relative">
+                    <span
+                        class="material-icons absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">search</span>
+                    <input
+                        class="bg-gray-50 border border-gray-300 rounded-full py-2 pl-10 pr-4 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                        placeholder="Search" type="text" />
+                </div>
+                <div class="flex items-center space-x-4">
+                    <button class="text-gray-600 hover:text-orange-500">
+                        <i class="material-icons">call</i>
+                    </button>
+                </div>
+                <button class="md:hidden text-gray-600">
+                    <i class="material-icons">menu</i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="relative h-screen bg-cover bg-center max-w-7xl mx-auto"
+            style="background-image: url('https://bhagavadgita.io/_next/image?url=%2Fbanner2.png&w=1920&q=75');display:block; margin:auto; width:80%; height:80vh;">
+            <div class="absolute inset-0 bg-black/40"></div>
+            <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
+                <h2 class="text-5xl md:text-7xl font-extrabold leading-tight">Experience the Gita</h2>
+                <h3 class="text-4xl md:text-6xl font-bold mb-8">Anywhere, Anytime</h3>
+                <a class="bg-white text-orange-500 font-bold py-3 px-8 rounded-full hover:bg-orange-50 transition-colors"
+                    href="Chapter1.html">Read now</a>
+            </div>
+        </section>
+
+        <section class="bg-amber-100 py-8 max-w-7xl mx-auto">
+            <div class="px-4 text-center">
+                <div class="flex items-center justify-center space-x-4">
+                    <img alt="Bhagavad Gita logo" class="h-12 w-12"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcBTEmcYNX0X6ryV9BL630qp5W73w5Lt3paZzEmiFw_MhqchztrdbfFP_4H9OeVpsgZ3C8rfZbn6MXkE47GHMHqeOcUfmyWV-tNwNHjldcAsP2xtSAMc0e5mqbAZPBOWJYucBRbKzomRrK9Gu6QGy-8qmD6ptp4_jAqRc2fAIzw88jVlyM5uyL1k59lqw_XtR0QAd_s-4KdHwqGkfk5zVEwsPJN16GT7nl4vV3JsEPLGs5r7PUJxNQ8QRtF99LrbpzcOdsTM9N_fE" />
+                    <div>
+                        <p class="font-bold text-gray-800">Verse of the day - BG 6.18</p>
+                        <p class="text-gray-600">When the yogi, by practice of yoga, disciplines his mental activities
+                            and becomes situated in Transcendence — devoid of all material desires — he is said to be
+                            well established in yoga.</p>
+                    </div>
+                </div>
+                <button class="mt-4 text-orange-500 font-semibold hover:underline">SEE MORE</button>
+            </div>
+        </section>
+
+        <section class="py-16 bg-white max-w-7xl mx-auto">
+            <div class="px-4 text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">Have the Shloka of the Day delivered</h2>
+                <h3 class="text-3xl font-bold text-gray-800 mb-8">to your inbox each morning</h3>
+                <form class="flex flex-col md:flex-row justify-center items-center gap-4 max-w-2xl mx-auto">
+                    <input
+                        class="w-full md:w-1/3 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400"
+                        placeholder="Enter Your Name" type="text" />
+                    <input
+                        class="w-full md:w-1/3 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400"
+                        placeholder="Enter Your Email" type="email" />
+                    <button
+                        class="w-full md:w-auto bg-orange-500 text-white font-bold py-3 px-8 rounded-md hover:bg-orange-600 transition-colors"
+                        type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="py-16 max-w-7xl mx-auto">
+            <div class="px-4">
+                <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Chapters</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <a href="Chapter1.html"
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 1</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Arjuna Visada Yoga</h3>
+                        <p class="text-gray-600 mb-4">The first chapter of the Bhagavad Gita - "Arjuna Vishada Yoga" is
+                            an introduction to the rest of the scripture. It introduces the setting, the characters and
+                            the conflict. It explains the reasons why the battle of Kurukshetra is about to begin and
+                            introduces the main characters. It also explains the reasons that led to the revelation
+                            of...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>43 Verses</span>
+                        </div>
+                    </a>
+                    <a href="Chapter2.html"
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 2</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Sankhya Yoga</h3>
+                        <p class="text-gray-600 mb-4">The second chapter of the Bhagavad Gita is important as it
+                            contains the main message of the book. In this chapter, Lord Krishna explains to Arjuna why
+                            it is his duty to fight. The "Sankhya Yoga" can be categorized int...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>42 Verses</span>
+                        </div>
+                    </a>
+                    <a href="Chapter3.html"
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 3</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Karma Yoga</h3>
+                        <p class="text-gray-600 mb-4">The third chapter of the Bhagavad Gita is "Karma Yoga". In this
+                            chapter, Lord Krishna explains to Arjuna about the importance of Karma. He tells him that it
+                            is important for every human being to do their duty. He says that it is important to perform
+                            our duties without any attachment to the result. Furthermore, he...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>43 Verses</span>
+                        </div>
+                    </a>
+                    <div
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 4</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Jnana Karma Sanyasa Yoga</h3>
+                        <p class="text-gray-600 mb-4">The fourth chapter of the Bhagavad Gita is "Jnana Karma Sanyasa
+                            Yoga". This chapter is all about the knowledge of the soul, the Supreme, and the path to
+                            liberation. Krishna explains that the knowledge of the soul and the Ultimate is the only way
+                            to achieve liberation from the cycle of birth and death. He reveals his divine appearance in
+                            this...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>42 Verses</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 5</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Karma Sanyasa Yoga</h3>
+                        <p class="text-gray-600 mb-4">The fifth chapter of the Bhagavad Gita is "Karma Sanyasa Yoga" or
+                            "Yoga of Renunciation of Action". In this chapter, Krishna compares the paths of
+                            renunciation of action (karma-sannyasa) and action in devotion (karma-yoga). He concludes
+                            that both are means to reach the same goal and liberate the soul from the cycle of birth...
+                        </p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>29 Verses</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 6</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Dhyana Yoga</h3>
+                        <p class="text-gray-600 mb-4">The sixth chapter of the Bhagavad Gita, Dhyana Yoga, reveals the
+                            Yoga of Meditation and how to practice it. Dhyana Yoga is a way to control the mind and
+                            senses, and to focus on God. It is a path of self-discipline, and it requires one to be
+                            detached from worldly desires. A person performing duties in devotion purifies one's
+                            existence and...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>47 Verses</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 7</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Gyaan Vigyana Yoga</h3>
+                        <p class="text-gray-600 mb-4">The seventh chapter of the Bhagavad Gita is "Gyaan Vigyana Yoga" -
+                            the yoga of knowledge and wisdom. This chapter explains the nature of the Absolute Truth,
+                            the principal cause and the sustaining force of everything, both material and spiritual. It
+                            also describes the four kinds of people who are attracted to God and the four kinds of
+                            people who are not, which is very dif...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>30 Verses</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 8</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Akshara Brahma Yoga</h3>
+                        <p class="text-gray-600 mb-4">The eighth chapter of the Bhagavad Gita is "Akshara Brahma Yoga".
+                            In this chapter, Krishna explains to Arjuna about the importance of remembering God at the
+                            time of death. He says that one's last thought before death is what determines the next
+                            life. If we can remember God at the time of death, we will attain His abode. It is very
+                            important to be in devotion as whatever...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>28 Verses</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 9</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Raja Vidya Yoga</h3>
+                        <p class="text-gray-600 mb-4">The ninth chapter of the Bhagavad Gita is "Raja Vidya Yoga". In
+                            this chapter, Krishna explains to Arjuna about the most confidential knowledge of the
+                            Supreme. He explains the nature of the God and how everything is connected to Him. Krishna
+                            says that He is the cause of all causes and that all beings come and go under his
+                            supervision. Furthermore, He reveals that...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>34 Verses</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 10</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Vibhooti Yoga</h3>
+                        <p class="text-gray-600 mb-4">The tenth chapter of the Bhagavad Gita is "Vibhooti Yoga". In this
+                            chapter, Krishna explains to Arjuna His opulences. He says that He is the source of all the
+                            demigods and sages. No one can know Him completely. He is the unborn, the beginningless, and
+                            the Supreme Lord of all the worlds. Through Bhakti, Arjuna is fully convinced of Lord's
+                            position and he requests...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>42 Verses</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 11</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Vishwaroopa Darshana Yoga</h3>
+                        <p class="text-gray-600 mb-4">The eleventh chapter of the Bhagavad Gita is "Vishwaroopa Darshana
+                            Yoga" and it is one of the most important chapters. Here, Lord Krishna reveals His Universal
+                            Cosmic Form that is breathtaking. In this chapter, Krishna reveals his form to Arjuna and
+                            Arjuna is fortunate enough to be able to see the entirety of or...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>55 Verses</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 12</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Bhakti Yoga</h3>
+                        <p class="text-gray-600 mb-4">The twelfth chapter of the Bhagavad Gita is "Bhakti Yoga". In this
+                            chapter, Krishna explains to Arjuna about the path of devotion (Bhakti Yoga). He explains
+                            that Bhakti Yoga is the easiest way to attain Him. He also explains that the path of
+                            devotion is superior to all other types of yoga. In this chapter, Krishna further explains
+                            that the devotees who...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>20 Verses</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 13</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Ksetra Ksetrajna Vibhaga Yoga</h3>
+                        <p class="text-gray-600 mb-4">The thirteenth chapter of the Bhagavad Gita is "Ksetra Ksetrajna
+                            Vibhaga Yoga". The chapter explains the difference between the physical body and the
+                            immortal soul. The chapter describes the physical body as the field and the immortal soul as
+                            the knower of the field. The chapter also describes the...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>35 Verses</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 14</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Gunatraya Vibhaga Yoga</h3>
+                        <p class="text-gray-600 mb-4">The fourteenth chapter of the Bhagavad Gita is "Gunatraya Vibhaga
+                            Yoga". In this chapter, Lord Krishna explains the three modes of material nature: sattva
+                            (goodness), rajas (passion), and tamas (ignorance). Everything in the material existence is
+                            influenced by the three modes of material nature...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>27 Verses</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 15</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Purushottama Yoga</h3>
+                        <p class="text-gray-600 mb-4">The fifteenth chapter of the Bhagavad Gita is "Purushottama Yoga,
+                            the Yoga of the Supreme Person". Purushottama means "the best of all living beings". In this
+                            chapter, Krishna explains that He is the Supreme Person, the ultimate goal of all yoga. He
+                            also explains how Transcendental knowledge of the God is to...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>20 Verses</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 16</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Daivasura Sampad Vibhaga Yoga</h3>
+                        <p class="text-gray-600 mb-4">The sixteenth chapter of the Bhagavad Gita is "Daivasura Sampad
+                            Vibhaga Yoga". In this chapter, Krishna describes explicitly the divine and the demoniac
+                            natures. He explains the qualities of the divine and the demoniac. People with divine
+                            qualities live a regulated life and attune themselves with the modes of passion a...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>24 Verses</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 17</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Sraddhatraya Vibhaga Yoga</h3>
+                        <p class="text-gray-600 mb-4">The seventeenth chapter of the Bhagavad Gita is "Sraddhatraya
+                            Vibhaga Yoga". In this chapter, Lord Krishna explains the three types of faith. There are
+                            three types of faith, corresponding to the three modes of material nature. The faith of each
+                            person is according to their nature. One's faith determines the quality of one's
+                            consciousness. There are three qua...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>28 Verses</span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white p-6 rounded-lg shadow-md border-t-4 border-orange-500 hover:bg-orange-50 hover:border-orange-800 transition-colors">
+                        <p class="text-sm text-gray-500 mb-1">Chapter 18</p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Moksha Sanyasa Yoga</h3>
+                        <p class="text-gray-600 mb-4">The eighteenth chapter of the Bhagavad Gita is "Moksha Sanyasa
+                            Yoga". This chapter is the summary of the Bhagavad Gita. The main difference between the two
+                            types of renunciations is explained here. Lord Krishna explains that the renunciation of
+                            actions is not possible. However, a true sanyaasi is one who aba...</p>
+                        <div class="flex items-center text-gray-500">
+                            <i class="material-icons mr-2">menu_book</i>
+                            <span>28 Verses</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Top Links -->
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">App</a>
+            <a href="#">Bhagavad Gita AI</a>
+            <a href="#">Acknowledgements</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Blog</a>
+            <a href="#">Donate</a>
+            <a href="#">API</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="container mx-auto px-4 flex justify-between items-center text-xs text-gray-500">
+            <p>© 2023 Company Name. All Rights Reserved.</p>
+            <div class="flex items-center space-x-2">
+                <a class="flex items-center bg-black text-white px-3 py-1.5 rounded-md"
+                    href="https://play.google.com/store/apps/details?id=com.gitainitiative.bhagavadgita">
+                    <img class="w-4 h-4 mr-2" src="https://bhagavadgita.io/play_store.svg" />
+                    <span>Get it on <br /><strong>Google Play</strong></span>
+                </a>
+                <a class="flex items-center bg-black text-white px-3 py-1.5 rounded-md"
+                    href="https://apps.apple.com/us/app/bhagavad-gita-hindi-english/id1602895635">
+                    <img class="w-4 h-4 mr-2" src="https://bhagavadgita.io/app_store.svg" />
+                    <span>Download on the <br /><strong>App Store</strong></span>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

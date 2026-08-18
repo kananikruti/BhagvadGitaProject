@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Bhagavad Gita</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .quote-text {
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+      margin: 20px auto;
+      max-width: 800px;
+      line-height: 1.6;
+    }
+
+    .quote-title {
+      font-size: 30px;
+      color: orange;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #fff;
+      padding: 30px 20px;
+      border-top: 1px solid #eee;
+      text-align: center;
+    }
+
+    footer .footer-links a {
+      margin: 0 12px;
+      color: #555;
+      font-size: 15px;
+      text-decoration: none;
+    }
+
+    footer .footer-links a:hover {
+      color: #000;
+    }
+
+    footer .social-icons a {
+      margin: 0 10px;
+      font-size: 20px;
+      color: #888;
+    }
+
+    footer .social-icons a:hover {
+      color: #000;
+    }
+
+    footer .copyright {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    footer .copyright span {
+      color: #ff6600;
+      /* Ved Vyas Foundation highlight */
+    }
+
+    footer .store-buttons img {
+      height: 45px;
+      margin-left: 10px;
+    }
+
+    .footer-bottom {
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+
+<body class="bg-amber-50">
+  <!-- HEADER -->
+  <header class="bg-white shadow-md fixed w-full top-0 z-50">
+    <div class="container mx-auto px-4">
+      <div class="flex justify-between items-center py-4">
+        <div class="flex items-center space-x-4">
+          <a class="text-xl font-bold text-gray-800" href="HomePage.html">Bhagavad Gita</a>
+        </div>
+        <nav class="hidden md:flex items-center space-x-8 relative">
+          <div class="group relative">
+            <a class="flex items-center text-gray-600 hover:text-orange-500 cursor-pointer">
+              Chapters <i class="material-icons text-sm ml-1">arrow_drop_down</i>
+            </a>
+            <!-- Dropdown -->
+            <div
+              class="absolute left-0 mt-2 w-72 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 p-4">
+              <div class="grid grid-cols-2 gap-2">
+                <!-- Chapters List -->
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    1</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    2</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    3</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    4</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    5</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    6</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    7</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    8</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    9</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    10</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    11</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    12</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    13</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    14</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    15</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    16</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    17</span></a>
+                <a href="#" class="flex items-center space-x-2 text-gray-700 hover:bg-orange-50 px-2 py-1 rounded"><i
+                    class="material-icons text-orange-500 text-lg">article</i><span>Chapter
+                    18</span></a>
+              </div>
+            </div>
+          </div>
+          <a class="text-gray-600 hover:text-orange-500" href="QuotesPage.html">Quotes</a>
+          <a class="text-gray-600 hover:text-orange-500" href="AboutGitaPage.html">About Gita</a>
+          <a class="text-gray-600 hover:text-orange-500" href="https://bhagavadgita.io/gitagpt">Gita AI</a>
+          <a class="text-gray-600 hover:text-orange-500" href="DonatePage.html">Donate</a>
+        </nav>
+        <div class="relative">
+          <span class="material-icons absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">search</span>
+          <input
+            class="bg-gray-50 border border-gray-300 rounded-full py-2 pl-10 pr-4 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+            placeholder="Search" type="text" />
+        </div>
+        <div class="flex items-center space-x-4">
+          <button class="text-gray-600 hover:text-orange-500">
+            <i class="material-icons">call</i>
+          </button>
+        </div>
+        <button class="md:hidden text-gray-600">
+          <i class="material-icons">menu</i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <main class="pt-20">
+    <section class="relative h-screen bg-cover bg-center"
+      style="background-image: url('https://bhagavadgita.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fquotes-bg.1a3ed553.png&w=1920&q=75'); display:block; margin:auto; width:80%; height:50vh;">
+      <div class="absolute inset-0 bg-black/40"></div>
+      <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
+        <h2 class="text-5xl md:text-7xl font-extrabold leading-tight">Bhagavad Gita Quotes By <br>Lord Krishna
+        </h2>
+      </div>
+    </section>
+
+    <!-- QUOTE CAROUSEL -->
+    <section class="container mx-auto px-4 py-16 relative">
+      <div class="relative w-full max-w-3xl mx-auto overflow-hidden">
+        <div class="carousel flex transition-transform duration-700 ease-in-out" id="carousel-slides">
+
+          <!-- Slide 1 -->
+          <div class="w-full flex-shrink-0">
+            <div class="quote-title">QUOTE 1</div>
+            <p class="quote-text">
+              Whenever dharma declines and the purpose of life is forgotten,<br>
+              I manifest myself on earth. I am born in every age to protect the good,<br>
+              to destroy evil, and to reestablish dharma.
+            </p>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="w-full flex-shrink-0">
+            <div class="quote-title">QUOTE 2</div>
+            <p class="quote-text">
+              You have the right to work, but never to the fruit of work.<br>
+              You should never engage in action for the sake of reward.
+            </p>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="w-full flex-shrink-0">
+            <div class="quote-title">QUOTE 3</div>
+            <p class="quote-text">
+              Change is the law of the universe.<br>
+              You can be a millionaire, or a pauper in an instant.
+            </p>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <button id="prev"
+          class="absolute top-1/2 left-0 -translate-y-1/2 bg-gray-800 text-white px-3 py-2 rounded-full">
+          <i class="material-icons">chevron_left</i>
+        </button>
+        <button id="next"
+          class="absolute top-1/2 right-0 -translate-y-1/2 bg-gray-800 text-white px-3 py-2 rounded-full">
+          <i class="material-icons">chevron_right</i>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <!-- Top Links -->
+    <div class="footer-links">
+      <a href="#">About Us</a>
+      <a href="#">App</a>
+      <a href="#">Bhagavad Gita AI</a>
+      <a href="#">Acknowledgements</a>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Blog</a>
+      <a href="#">Donate</a>
+      <a href="#">API</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="social-icons mt-3">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-x-twitter"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="container mx-auto px-4 flex justify-between items-center text-xs text-gray-500">
+      <p>© 2023 Company Name. All Rights Reserved.</p>
+      <div class="flex items-center space-x-2">
+        <a class="flex items-center bg-black text-white px-3 py-1.5 rounded-md"
+          href="https://play.google.com/store/apps/details?id=com.gitainitiative.bhagavadgita">
+          <img class="w-4 h-4 mr-2" src="https://bhagavadgita.io/play_store.svg" />
+          <span>Get it on <br /><strong>Google Play</strong></span>
+        </a>
+        <a class="flex items-center bg-black text-white px-3 py-1.5 rounded-md"
+          href="https://apps.apple.com/us/app/bhagavad-gita-hindi-english/id1602895635">
+          <img class="w-4 h-4 mr-2" src="https://bhagavadgita.io/app_store.svg" />
+          <span>Download on the <br /><strong>App Store</strong></span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CAROUSEL SCRIPT -->
+  <script>
+    const slides = document.getElementById("carousel-slides");
+    const totalSlides = slides.children.length;
+    let index = 0;
+
+    function showSlide(i) {
+      index = (i + totalSlides) % totalSlides;
+      slides.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    document.getElementById("prev").addEventListener("click", () => showSlide(index - 1));
+    document.getElementById("next").addEventListener("click", () => showSlide(index + 1));
+  </script>
+</body>
+
+</html>
